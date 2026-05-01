@@ -12,9 +12,9 @@ public class SearchMatrix {
             if(midValue== target){
                 return true;
             }else if(midValue > target){
-                right = midValue-1;
+                right = mid-1;
             }else{
-                left = midValue+1;
+                left = mid+1;
             }
 
 
